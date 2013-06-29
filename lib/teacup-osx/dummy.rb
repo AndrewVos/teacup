@@ -50,6 +50,7 @@ class DummyTextField < NSTextField
 private
   def dummy
     setAdjustsFontSizeToFitWidth(nil)
+    setDrawsBackground(nil)
   end
 end
 
